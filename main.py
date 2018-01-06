@@ -64,3 +64,6 @@ print(bad_list)
 
 good_list = [3, 4, 5, 6]
 print(good_list)
+
+print(1)
+print(2)
