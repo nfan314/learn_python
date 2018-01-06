@@ -1,0 +1,60 @@
+# initial value
+Jeff = "1. Yay, Bye"
+print(Jeff)
+
+# change value
+Jeff = "2. Yubo is fat"
+print(Jeff)
+
+# multi- line string
+Jeff = '''3. Hello my name is Jeff
+I like to eat BREAKFAST!!'''
+print(Jeff)
+
+# dialogue
+Jeff = '4. Jeff said "Hello my name is Jeff"'
+print(Jeff)
+
+# use single quotes to include double quotes
+Nathan = '5. I said "I\'m very good at typing\"'
+print(Nathan)
+
+# use escape character to include double quotes
+Nathan = "6. I said, \"I'm very good at typing\""
+print(Nathan)
+
+# embed value in strings
+weight = 'one ton'
+yubo = '7. The stranger said, "I am Yubo and I weigh %s"'
+print(yubo % weight)
+weight = '100000 pounds'
+print(yubo % weight)
+print(yubo % 3454324)
+print(yubo % "356765458 pounds")
+
+# embed two values in a string
+yubo = '8. Then Yubo said "I used to weigh %s in march, now I weigh %s!"'
+print(yubo % (2142143, 23456789876))
+march_weight = 2142143
+now_weight = 23456789876
+print(yubo % (march_weight, now_weight))
+
+# Make a letter!!
+spaces = 110 * ' '
+grid = '1234567890' * 13
+print(grid)
+print("%s418 Alliance circle" % spaces)
+print("%sCary, NC" % spaces)
+print("%sUnited States of America" % spaces)
+
+# story
+yubo_walking = 'Yubo walked up to a stranger and said, %s'
+yubo_talking = '"Hello, my name is Yubo."'
+spaces = 55 * ' '
+print("%sThe Story of Yubo" % spaces)
+print()
+print(yubo_walking % yubo_talking)
+
+# lists are totally better than strings!
+fat_list = ['oil', 'cream cheese', 'ice cream', 'cake mix', 'sugar', 'patties']
+print(fat_list[2])
