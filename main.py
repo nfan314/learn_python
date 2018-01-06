@@ -61,3 +61,6 @@ print(fat_list[2])
 
 bad_list = [1, 2, 3, 4]
 print(bad_list)
+
+good_list = [3, 4, 5, 6]
+print(good_list)
