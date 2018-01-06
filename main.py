@@ -58,3 +58,6 @@ print(yubo_walking % yubo_talking)
 # lists are totally better than strings!
 fat_list = ['oil', 'cream cheese', 'ice cream', 'cake mix', 'sugar', 'patties']
 print(fat_list[2])
+
+bad_list = [1, 2, 3, 4]
+print(bad_list)
