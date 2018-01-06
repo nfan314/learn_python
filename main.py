@@ -70,3 +70,6 @@ print(2)
 
 Git_tests = [56, 43, 32, 45]
 print(Git_tests)
+
+push_pull = ['Git', 'is', 'so', 'awesome']
+print(push_pull)
