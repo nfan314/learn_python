@@ -79,3 +79,25 @@ print(Git_tests)
 Git_tests.append('hi')
 Git_tests.append('yay')
 print(Git_tests)
+del Git_tests[0]
+print(Git_tests)
+
+# combining lists
+combine_1 = [1, 2, 3, 4]
+combine_2 = ['Hello', 'my', 'name', 'is', 'Jeff']
+combine_3 = combine_1 + combine_2
+print(combine_3)
+list_1 = [1, 2]
+print(list_1 * 5)
+
+# tuples
+fibs = (0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89)
+print(len(fibs))
+
+# Maps
+Family_age = {'Nathan': 12, 'Maddie': 15}
+print(Family_age['Nathan'])
+Family_age['Yubo'] = 46
+print(Family_age)
+Family_age['Sharon'] = 43
+print(Family_age)
