@@ -73,3 +73,9 @@ print(Git_tests)
 
 push_pull = ['Git', 'is', 'so', 'awesome']
 print(push_pull)
+
+Git_tests.append(89)
+print(Git_tests)
+Git_tests.append('hi')
+Git_tests.append('yay')
+print(Git_tests)
