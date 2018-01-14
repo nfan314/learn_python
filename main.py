@@ -179,6 +179,11 @@ print('=' * 70)
 # for the next 15 nears
 weight = 40  # current weight in 2018
 print("Earth weight: ", weight, ", moon weight: %.3f" % (weight * 0.165))
+year = 2018
+for x in range(0, 15):
+    print(year, "- earth weight:", weight, ", moon weight: %.3f" % (weight * 0.165))
+    year = year + 1
+    weight = weight + 1
 
 print('\n\nLoop Exercise #3 - square of numbers')
 print('=' * 70)
