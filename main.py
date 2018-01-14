@@ -105,3 +105,40 @@ print(Family_age)
 # Complaining about turtle
 Complaint = ['Why', 'can', 'I', 'not', 'get', 'turtle!?']
 print(Complaint)
+
+# if and else statements
+age = 25
+if age > 20:
+    print('you are too old!')
+
+age = 20
+if age == 19:
+    print('Hi my name is Jeff!!')
+else:
+    print('Top secret can\'t tell you!!')
+
+# requirement
+# 1. <13 - small kid
+# 2. 13 to 19 - teenager
+# 3. 20 to 39 - young adult
+# 4. 40 to 55 - middle age
+# 5. 56 and up - elder
+age = 45
+if age < 13:
+    print('You are a small kid')
+elif age < 20:
+    print(' You are a teenager')
+elif age < 40:
+    print('You are a young adult')
+elif age < 56:
+    print('You are a middle aged person')
+else:
+    print('You are an elder')
+
+# loops
+for x in range(0, 5):
+    print('hello')
+for c in range(1, 10, 2):
+    print('hello %s' % c)
+for y in range(7, 100, 7):
+    print(y)
