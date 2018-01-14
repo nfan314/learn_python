@@ -142,3 +142,10 @@ for c in range(1, 10, 2):
     print('hello %s' % c)
 for y in range(7, 100, 7):
     print(y)
+for j in range(8, 100, 8):
+    print(j)
+for l in range(3, 50, 3):
+    print(l)
+Fat = ['Yubo', 'is', 'very', 'fat']
+for x in Fat:
+    print(x)
