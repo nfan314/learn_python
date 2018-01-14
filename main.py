@@ -178,11 +178,10 @@ print('=' * 70)
 # 3. Print out your earth weight and moon weight each year
 # for the next 15 nears
 weight = 40  # current weight in 2018
-print("Earth weight: ", weight, ", moon weight: %.3f" % (weight * 0.165))
 year = 2018
-for x in range(0, 15):
-    print(year, "- earth weight:", weight, ", moon weight: %.3f" % (weight * 0.165))
-    year = year + 1
+str = "%s - earth weight: %s, moon weight: %.3f"
+for x in range(0, 20):
+    print(str % (year + x, weight, weight * 0.165))
     weight = weight + 1
 
 print('\n\nLoop Exercise #3 - square of numbers')
