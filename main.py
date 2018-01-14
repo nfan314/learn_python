@@ -149,3 +149,57 @@ for l in range(3, 50, 3):
 Fat = ['Yubo', 'is', 'very', 'fat']
 for x in Fat:
     print(x)
+
+print('\n\nLoop Exercise #1 - favorite activites')
+print('=' * 70)
+
+# Loop exercise 1
+# From the Python for Kids book
+# #3 My favorite activities
+# (print out number along with the activity)
+#  1 - Video game
+#  2 - Watch TV
+#  3 - Soccer
+#  4 - Football
+fav_activities = {'Video game', 'Watch TV', 'Soccer', 'Football', 'Python'}
+print(fav_activities)
+
+print('\n\nLoop Exercise #2 - my weight on the moon')
+print('=' * 70)
+# Loop exercise 2
+# From the Python for Kids book
+# #4 Your weight on the moon
+# 1. Your weight grows 1 kg every year
+# 2. moon weight is 0.165 times your earth weight
+# 3. Print out your earth weight and moon weight each year
+#    for the next 15 nears
+weight = 40  # current weight in 2018
+print("Earth weight: ", weight, ", moon weight: %.3f" % (weight * 0.165))
+
+print('\n\nLoop Exercise #3 - square of numbers')
+print('=' * 70)
+# Loop exercise 3
+# Given a variable, say side=3, print out a square of numbers
+# 1, 2, 3
+# 4, 5, 6
+# 7, 8, 9
+
+# HINT: using end='' will keep the next print in the same line
+side = 3
+print('side = ', side)
+print('1', end=', ')
+print('2', end=', ')
+print('3')
+print('4', end=', ')
+print('5', end=', ')
+print('6')
+print('7', end=', ')
+print('8', end=', ')
+print('9')
+
+# The above is the manual way of printing the square
+# Now, it's Nathan's turn to write a real program
+side = 5
+# Here's the program to print out the square
+# ...
+# ...
