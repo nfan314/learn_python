@@ -167,6 +167,7 @@ rank = 1
 for x in fav_activities:
     print('%s.' % rank, x)
     rank = rank + 1
+
 print('\n\nLoop Exercise #2 - my weight on the moon')
 print('=' * 70)
 # Loop exercise 2
