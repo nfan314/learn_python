@@ -161,9 +161,12 @@ print('=' * 70)
 #  2 - Watch TV
 #  3 - Soccer
 #  4 - Football
-fav_activities = {'Video game', 'Watch TV', 'Soccer', 'Football', 'Python'}
+fav_activities = ['Video game', 'Watch TV', 'Soccer', 'running', 'Python']
 print(fav_activities)
-
+rank = 1
+for x in fav_activities:
+    print('%s.' % rank, x)
+    rank = rank + 1
 print('\n\nLoop Exercise #2 - my weight on the moon')
 print('=' * 70)
 # Loop exercise 2
@@ -172,7 +175,7 @@ print('=' * 70)
 # 1. Your weight grows 1 kg every year
 # 2. moon weight is 0.165 times your earth weight
 # 3. Print out your earth weight and moon weight each year
-#    for the next 15 nears
+# for the next 15 nears
 weight = 40  # current weight in 2018
 print("Earth weight: ", weight, ", moon weight: %.3f" % (weight * 0.165))
 
