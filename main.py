@@ -207,7 +207,13 @@ print('9')
 
 # The above is the manual way of printing the square
 # Now, it's Nathan's turn to write a real program
-side = 5
+side = 4
 # Here's the program to print out the square
 # ...
 # ...
+print('side = ', side)
+for x in range(0, side):
+    for y in range(0, side):
+        n = side * x + y + 1
+        print(n, end=', ')
+    print()
