@@ -227,11 +227,18 @@ for x in range(0, side):
     print()
 
 # probability exercise
-shirt = ['red', 'yellow', 'white']
-pants = ['blue', 'black']
+shirt = ['red', 'yellow', 'white', 'orange', 'grey']
+pants = ['blue', 'black', 'green']
 
 # Expected output:
 # red shirt, blue pants
 # red shirt, black pants
 # ...
-# There are 6 combinations
+# There are 6 combination
+str = '%s. %s shirt, %s pants'
+n = 1
+for x in shirt:
+    for y in pants:
+        print(str % (n, x, y))
+        n = n + 1
+print('There are %s combos' % (n - 1))
