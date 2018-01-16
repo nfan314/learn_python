@@ -217,3 +217,11 @@ for x in range(0, side):
         n = side * x + y + 1
         print(n, end=', ')
     print()
+
+# double loop practice
+print('side = ', side)
+for x in range(0, side):
+    for y in range(0, side):
+        n = side * y + x + 1
+        print(n, end=', ')
+    print()
