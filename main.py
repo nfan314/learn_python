@@ -242,3 +242,11 @@ for x in shirt:
         print(str % (n, x, y))
         n = n + 1
 print('There are %s combos' % (n - 1))
+
+# triple loops
+shoes = ['nike', 'addidas']
+shirt = ['red', 'yellow', 'white', 'orange', 'grey']
+pants = ['blue', 'black', 'green']
+# red shirt, blue pants, nike shoes
+# red shirt, black pants, ...
+# ...
