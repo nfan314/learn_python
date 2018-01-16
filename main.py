@@ -225,3 +225,13 @@ for x in range(0, side):
         n = side * y + x + 1
         print(n, end=', ')
     print()
+
+# probability exercise
+shirt = ['red', 'yellow', 'white']
+pants = ['blue', 'black']
+
+# Expected output:
+# red shirt, blue pants
+# red shirt, black pants
+# ...
+# There are 6 combinations
