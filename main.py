@@ -250,3 +250,16 @@ pants = ['blue', 'black', 'green']
 # red shirt, blue pants, nike shoes
 # red shirt, black pants, ...
 # ...
+print()
+print()
+print('Triple loop challenge DIY')
+print('=' * 70)
+print()
+k = 1
+string = '%s. %s shoes, %s shirts, %s pants'
+for x in shoes:
+    for y in shirt:
+        for z in pants:
+            print(string % (k, x, y, z))
+            k = k + 1
+print('There are %s combos' % (k - 1))
