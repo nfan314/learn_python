@@ -278,3 +278,14 @@ if (n % i == 0):
     print('%s is a denominator of %s' % (i, n))
 else:
     print('no lucK')
+
+n = 1000000
+m = 0
+for x in range(1, n + 1):
+    if (n % x == 0):
+        print(x, end=', ')
+        if (m % 20 == 0):
+            print()
+        m = m + 1
+print()
+print('There are %s factors of %s' % (m, n))
