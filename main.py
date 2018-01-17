@@ -263,3 +263,18 @@ for x in shoes:
             print(string % (k, x, y, z))
             k = k + 1
 print('There are %s combos' % (k - 1))
+
+print('\nLoop to find denominators')
+print('=' * 70)
+
+n = 20
+# print out all denominators of n
+# 1, 2, 4, 5, 10, 20
+#
+# To test if i is divisble by n:
+#   if (n % i == 0)
+i = 5
+if (n % i == 0):
+    print('%s is a denominator of %s' % (i, n))
+else:
+    print('no lucK')
