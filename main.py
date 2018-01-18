@@ -289,3 +289,13 @@ for x in range(1, n + 1):
         m = m + 1
 print()
 print('There are %s factors of %s' % (m, n))
+
+# Loop exercise: check for prime number
+n = 113
+# check if n is a prime number
+# if a number has only 2 factors (1 and itself),
+# then it's a prime number
+# The program should print the following:
+#    113 is a prime number
+# or 113 is not a prime number
+# ========Enjoy================================
