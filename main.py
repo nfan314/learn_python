@@ -264,7 +264,7 @@ for x in shoes:
             k = k + 1
 print('There are %s combos' % (k - 1))
 
-print('\nLoop to find denominators')
+print('\nLoop to find factors')
 print('=' * 70)
 
 n = 20
@@ -275,11 +275,11 @@ n = 20
 #   if (n % i == 0)
 i = 5
 if (n % i == 0):
-    print('%s is a denominator of %s' % (i, n))
+    print('%s is a factor of %s' % (i, n))
 else:
     print('no lucK')
 
-n = 4
+n = 36
 m = 0
 for x in range(1, n + 1):
     if (n % x == 0):
@@ -314,8 +314,10 @@ def isOdd(x):
         return True
 
 
-print('4 is odd:', isOdd(4))
-print('5 is odd:', isOdd(5))
+print('\nTest function isOdd(x)')
+print('=' * 70)
+print('isOdd(4)', isOdd(4))
+print('isOdd(5)', isOdd(5))
 
 
 # Please implement isPrime(x)
@@ -325,8 +327,18 @@ def isPrime(x):
     for y in range(2, x):
         if(x % y == 0):
             return False
-    return True
+    return x > 1
 
 
-x = 0
-print('%s is prime' % x, isPrime(x))
+print('\nTest isPrime(x)')
+print('=' * 70)
+print('isPrime(0)', isPrime(0))
+print('isPrime(1)', isPrime(1))
+print('isPrime(2)', isPrime(2))
+print('isPrime(18)', isPrime(18))
+print('isPrime(9991)', isPrime(9991))
+print('isPrime(99991)', isPrime(99991))
+
+# We have already done a lot
+# Let's take a break and review all the programs above
+# You need to build a solid foundation
