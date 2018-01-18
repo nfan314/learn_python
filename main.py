@@ -317,6 +317,16 @@ def isOdd(x):
 print('4 is odd:', isOdd(4))
 print('5 is odd:', isOdd(5))
 
+
 # Please implement isPrime(x)
 # so that isPrime(5) will return True
 # and isPrime(6) will return false
+def isPrime(x):
+    for y in range(2, x):
+        if(x % y == 0):
+            return False
+    return True
+
+
+x = 0
+print('%s is prime' % x, isPrime(x))
