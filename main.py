@@ -289,14 +289,8 @@ for x in range(1, n + 1):
             print()
 print()
 print('There are %s factors of %s' % (m, n))
-if (m < 2):
-    print('%s is not a prime or composite number' % n)
-elif (m == 2):
-    print('%s is a prime number' % n)
-else:
-    print('%s is a composite number' % n)    
+
 # Loop exercise: check for prime number
-n = 113
 # check if n is a prime number
 # if a number has only 2 factors (1 and itself),
 # then it's a prime number
@@ -304,3 +298,25 @@ n = 113
 #    113 is a prime number
 # or 113 is not a prime number
 # ========Enjoy================================
+if (m < 2):
+    print('%s is not a prime or composite number' % n)
+elif (m == 2):
+    print('%s is a prime number' % n)
+else:
+    print('%s is a composite number' % n)
+
+
+# Function: def
+def isOdd(x):
+    if (x % 2 == 0):
+        return False
+    else:
+        return True
+
+
+print('4 is odd:', isOdd(4))
+print('5 is odd:', isOdd(5))
+
+# Please implement isPrime(x)
+# so that isPrime(5) will return True
+# and isPrime(6) will return false
