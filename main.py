@@ -279,17 +279,22 @@ if (n % i == 0):
 else:
     print('no lucK')
 
-n = 1000000
+n = 4
 m = 0
 for x in range(1, n + 1):
     if (n % x == 0):
         print(x, end=', ')
+        m = m + 1
         if (m % 20 == 0):
             print()
-        m = m + 1
 print()
 print('There are %s factors of %s' % (m, n))
-
+if (m < 2):
+    print('%s is not a prime or composite number' % n)
+elif (m == 2):
+    print('%s is a prime number' % n)
+else:
+    print('%s is a composite number' % n)    
 # Loop exercise: check for prime number
 n = 113
 # check if n is a prime number
