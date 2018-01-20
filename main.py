@@ -342,3 +342,6 @@ print('isPrime(99991)', isPrime(99991))
 # We have already done a lot
 # Let's take a break and review all the programs above
 # You need to build a solid foundation
+
+n = 50
+# print out all the primes that are less than n
