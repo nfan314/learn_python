@@ -345,3 +345,6 @@ print('isPrime(99991)', isPrime(99991))
 
 n = 50
 # print out all the primes that are less than n
+for x in range(n):
+    if isPrime(x):
+        print(x)
