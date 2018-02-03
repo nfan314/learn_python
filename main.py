@@ -348,3 +348,9 @@ n = 50
 for x in range(n):
     if isPrime(x):
         print(x)
+
+# prove that an even number can always been
+# separated into two prime number
+# e.g. 8 = 3 + 5, 18 = 7 + 11
+n = 50
+# print out the two primes whose sum is n
